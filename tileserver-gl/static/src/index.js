@@ -135,7 +135,7 @@ const map = new maplibre.Map({
     container: "map",
     zoom: 3,
     hash: "map",
-    center: [4.899, 52.372],
+    center: [20.99, 1.75],
 });
 
 map.addControl(new maplibre.NavigationControl());
