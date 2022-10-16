@@ -1,8 +1,15 @@
 # OpenPlaceGuide Tiles
 
-Work with `./dc`
-It calls docker composer with two files (the additional one for Traefik)
+Call `./startup.sh`
 
-`./dc up -d`
+## Install Supervisor
 
+```
+ln -s /srv/makina-maps/supervisor/makina-maps-update.conf  /etc/supervisor/conf.d/
+supervisorctl reread
+``` 
+
+## Check Update Behind Time
+
+`supervisorctl tail -f makina_maps_update stdout`
 

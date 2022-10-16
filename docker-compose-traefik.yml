@@ -17,9 +17,12 @@ services:
       - "traefik.enable=true"
       - "traefik.http.middlewares.serviceheaders.headers.accesscontrolalloworiginlist=*"
   nginx:
+    restart: always
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.nginx.rule=(Host(`africa.tiles.openplaceguide.org`,`a.africa.tiles.openplaceguide.org`,`b.africa.tiles.openplaceguide.org`,`c.africa.tiles.openplaceguide.org`))"
       - "traefik.http.services.nginx.loadbalancer.server.port=80"
       - "traefik.http.routers.nginx.service=nginx"
       - "traefik.http.routers.nginx.tls=true"
+  tileserver-gl:
+    restart: always
