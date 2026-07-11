@@ -26,7 +26,7 @@ cd makina-maps
 
 Get default GL Json Styles and Fonts, or use your owns:
 ```
-git clone -b gh-pages https://github.com/openmaptiles/osm-bright-gl-style.git tileserver-gl/styles/osm-bright-gl-style
+git clone -b building-names https://github.com/OpenPlaceGuide/osm-bright-gl-style.git tileserver-gl/styles/osm-bright-gl-style
 git clone -b gh-pages https://github.com/openmaptiles/klokantech-basic-gl-style.git tileserver-gl/styles/klokantech-basic-gl-style
 git clone -b gh-pages https://github.com/makinacorpus/cassini-gl-style.git tileserver-gl/styles/cassini-gl-style
 git clone -b gh-pages https://github.com/openmaptiles/fonts.git tileserver-gl/fonts
