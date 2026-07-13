@@ -49,7 +49,9 @@ update:
 .PHONY: up
 up:
 	$(MAKE) -C $(OMT_DIR) start-db
-	cd $(OMT_DIR) && docker-compose up -d postserve
+	# Postserve must advertise absolute http:// URLs so tileserver-gl can fetch
+	# tiles from the remote TileJSON source.
+	cd $(OMT_DIR) && OMT_HOST=http://postserve docker-compose up -d postserve
 	docker-compose up -d
 
 .PHONY: down

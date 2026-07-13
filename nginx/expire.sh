@@ -5,7 +5,7 @@ set -e
 # curl -X GET -I http://127.0.0.1/openmaptiles_v3/14/8166/5900.pbf > /dev/null
 # curl -X EXPIRE http://127.0.0.1/openmaptiles_v3/14/8166/5900.pbf
 
-SOURCES_JSON=http://tileserver-gl/index.json
+SOURCES_JSON=http://tileserver-gl:8080/index.json
 
 attempt_counter=0
 max_attempts=20
