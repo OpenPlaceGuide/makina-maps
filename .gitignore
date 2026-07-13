@@ -1,5 +1,6 @@
 /tileserver-gl/fonts
-/tileserver-gl/styles
+/tileserver-gl/styles/*
+!/tileserver-gl/styles/osm-bright-gl-style
 /tileserver-gl/data
 /cache/*
 acme.json
