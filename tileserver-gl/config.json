@@ -5,11 +5,7 @@
       "fonts": "fonts",
       "styles": "styles"
     },
-    "domains": [
-      "a.africa.tiles.openplaceguide.org",
-      "b.africa.tiles.openplaceguide.org",
-      "c.africa.tiles.openplaceguide.org"
-    ],
+    "domains": [],
     "formatQuality": {
       "jpeg": 80,
       "webp": 90
@@ -37,14 +33,7 @@
   },
   "data": {
     "v3": {
-      "remote_tilejson": "http://postserve:8090/",
-      "tilejson": {
-        "tiles": [
-          "https://a.africa.tiles.openplaceguide.org/data/v3/{z}/{x}/{y}.pbf",
-          "https://b.africa.tiles.openplaceguide.org/data/v3/{z}/{x}/{y}.pbf",
-          "https://c.africa.tiles.openplaceguide.org/data/v3/{z}/{x}/{y}.pbf"
-        ]
-      }
+      "remote_tilejson": "http://postserve:8090/"
     }
   }
 }
