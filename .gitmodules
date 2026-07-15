@@ -5,6 +5,7 @@
 [submodule "tileserver-gl/tileserver-gl"]
 	path = tileserver-gl/tileserver-gl
 	url = https://github.com/OpenPlaceGuide/tileserver-gl.git
+	branch = opg-main
 [submodule "tileserver-gl/styles/osm-bright-gl-style"]
 	path = tileserver-gl/styles/osm-bright-gl-style
 	url = https://github.com/OpenPlaceGuide/osm-bright-gl-style.git
